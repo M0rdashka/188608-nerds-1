@@ -3,10 +3,154 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main_header">
+      <div class="container">
+        <div class="index_logo">
+          <a href="#">
+            <img src="img/index_logo.png" width="139" height="56" alt="нёрдс">
+          </a>
+        </div>
+        <nav class="main_navigation">
+          <ul>
+            <li class="active">
+              <a href="#">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+         </ul>
+         </nav>
+         <div class="buy_block">
+           <a class="buy" href="#">Корзина</a>
+         </div>
+       </div>
+    </header>
+    <main class="container">
+      <div class="slider">
+        <input type="radio" name="slider" id="item_1" checked>
+        <label for="item_1"></label>
+        <div>
+          <img src="img/slid_first.png" width="338" height="231" alt="слайд_1">
+          <h2>Долго, дорого, скрупулезно</h2>
+          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+          <a class="more_info" href="#">Узнать больше</a>
+        </div>
+        <input type="radio" name="slider" id="item_2">
+        <label for="item_2"></label>
+        <div>
+          <img src="img/slid_second.png" width="230" height="249" alt="слайд_2">
+          <h2>Любите ли вы математику, как любим ее мы?</h2>
+          <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им воможность все просчитать</p>
+          <a class="more_info" href="#">Узнать больше</a>
+        </div>
+        <input type="radio" name="slider" id="item_3">
+        <label for="item_3"></label>
+        <div>
+          <img src="img/slid_therd.png" width="333" height="319" alt="слайд_3">
+          <h2>Только наркотики, только хардкор</h2>
+          <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галюциногенов</p>
+          <a class="more_info" href="#">Узнать больше</a>
+        </div>
+      </div>
+      <div class="services">
+          <div>
+             <img src="img/web_site.jpg" width="240" height="124" alt="веб_сайты">
+             <b>Веб-сайты</b>
+             <p>Мир никогда не будет прежним после того как увидт ваш сайт!</p>
+             <a class="order" href="#">Заказать</a>
+          </div>
+          <div>
+            <img src="img/priloj.jpg" width="240" height="124" alt="приложения">
+            <b>Приложения</b>
+            <p>Покорите топ-10 приложений в AppStore Google Play</p>
+            <a class="order" href="#">Заказать</a>
+          </div>
+          <div>
+            <img src="img/prezent.jpg" width="240" height="124" alt="презентации">
+            <b>Презентации</b>
+            <p>В даже не подозреваете, насколько вы изумительны</p>
+            <a class="order" href="#">Заказать</a>
+          </div>
+      </div>
+      <div>
+        <div class="left_nerds">
+          <h1> Мы - маленькая, но гордая дизайн-студия из Краснодара</h1>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+          <p>Выполняем заказы на разработку:</p>
+            <ul>
+              <li>Веб-сайтов любой сложности</li>
+              <li>Мобильных приложений для IOS и Android</li>
+              <li>Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+        </div>
+        <div class="right_nerds">
+          <div>
+            <a href="#">
+              <img src="img/index_logo.png" width="139" height="56" alt="нёрдс">
+            </a>
+          </div>
+          <div>
+            <p>since 2004</p>
+          </div>
+          <div>
+            <p>Как мы работаем:</p>
+              <ul>
+                <li>С самоотдачей 146%</li>
+                <li>Собдлюдая сроки на 100%</li>
+                <li>С предоплатой 50%</li>
+              </ul>
+           </div>
+        </div>
+        <div class="contacts">
+          <a href="#">
+            <img src="img/glukhanko.png" width="198" height="37" alt="glukhanko">
+          </a>
+          <a href="#">
+            <img src="img/htmlacademy.png" width="199" height="68" alt="htmlacademy">
+          </a>
+          <a href="#">
+            <img src="img/barbershop.png" width="209" height="90" alt="barbershop">
+          </a>
+      </div>
+      <div class="map">
+        <img src="img/map_contacts.png" width="1199" height="416" alt="map_contacts">
+      </div>
+    </main>
+    <footer>
+      <div>
+        <div>
+          <ul class="social">
+            <li class="icon_vk">
+              <a href="#">
+                <img src="img/circle.png" width="62" height="62" alt="вконтакте">
+              </a>
+            </li>
+            <li class="icon_twitter">
+              <a href="#">
+                <img src="img/circle.png" width="62" height="62" alt="твиттер">
+              </a>
+            </li>
+            <li class="icon_instagram">
+              <a href="#">
+                <img src="img/circle.png" width="62" height="62" alt="instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+           <h2>Давайте дружить, это выгодно!</h2>
+           <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

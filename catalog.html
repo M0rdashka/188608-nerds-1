@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="container">
+        <div class="index_logo">
+          <a href="#">
+            <img src="img/index_logo.png" width="139" height="56" alt="нёрдс">
+          </a>
+        </div>
+        <nav class="main_navigation">
+          <ul>
+            <li class="active">
+              <a href="#">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="buy_block">
+            <a class="buy" href="#">Корзина</a>
+        </div>
+      </div>
+    </header>
+      <main class="container">
+        <div>
+          <h1>Добро пожаловать в магазин готовых макетов</h1>
+        </div>
+      <form action="/">
+        <div>
+          <section class="range_slider">
+            <b class="title_form">Стоимость</b>
+            <input type="range" min="0" max="15000" step="0.5" value="5">
+            <input type="range" min="0" max="15000" step="0.5" value="15000">
+          </section>
+        <div class="category_price">
+          <label>От</label>
+            <input type="text" name="price_form2.1" value="0" id="minprice">
+          <label>до</label>
+            <input type="text" name="price_form2.2" value="15000" id="maxprice">
+        </div>
+        <div>
+          <b>Сетка:</b>
+          <label><input name="option_adaptiv" type="checkbox" value="adaptiv" checked> Адаптивная</label>
+          <label><input name="option_fix" type="checkbox" value="fix"> Фиксированная</label>
+          <label><input name="option_no_fix" type="checkbox" value="no_fix"> Резиновая</label>
+        </div>
+        <div>
+          <b>Особенности:</b>
+          <label><input name="option_slaider" type="checkbox" value="slaider" checked>Слайдер</label>
+          <label><input name="option_preference" type="checkbox" value="preference">Блок преимуществ</label>
+          <label><input name="option_news" type="checkbox" value="news" checked>Новости</label>
+          <label><input name="option_galary" type="checkbox" value="galary">Галерея</label>
+          <label><input name="option_buy_block" type="checkbox" value="buy_block">Корзина</label>
+        </div>
+          <input type="submit" value="Показать">
+        </div>
+      </form>
+      <div>
+        <div>
+          <b>Сортировка:</b>
+        </div>
+        <div>
+          <ul class="assortment">
+            <li class="assortment_price">
+              <a href="#">по цене</a>
+            </li>
+            <li class="assortment_type">
+              <a href="#">по типу</a>
+            </li>
+            <li class="assortment_functional">
+              <a href="#">по функционалу</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <a href="#"></a>
+          </div>
+          <div>
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="item">
+          <a href="#">
+            <img src="img/article1_1.jpg" width="240" height="240" alt="article1_1">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article2_1.jpg" width="240" height="240" alt="article2_1">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article1_2.jpg" width="240" height="240" alt="article1_2">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article2_2.jpg" width="240" height="240" alt="article2_2.png">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article1_3.jpg" width="239" height="240" alt="article1_3">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article2_3.jpg" width="239" height="240" alt="article2_3">
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="tab_menu">
+          <div class="next_tab">
+            <a href="#">следующая</a>
+          </div>
+        </div>
+      <div class="map">
+        <img src="img/map_contacts.png" width="1199" height="416" alt="map_contacts">
+      </div>
+    </div>
+  </main>
+    <footer>
+      <div>
+        <div>
+          <ul class="social">
+             <li class="icon_vk">
+               <a href="#">
+                 <img src="img/circle.png" width="62" height="62" alt="вконтакте">
+               </a>
+             </li>
+             <li class="icon_twitter">
+               <a href="#">
+                 <img src="img/circle.png" width="62" height="62" alt="твиттер">
+               </a>
+             </li>
+             <li class="icon_instagram">
+               <a href="#">
+                 <img src="img/circle.png" width="62" height="62" alt="instagram">
+               </a>
+             </li>
+          </ul>
+        </div>
+        <div class="social">
+          <h2>Давайте дружить, это выгодно!</h2>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
